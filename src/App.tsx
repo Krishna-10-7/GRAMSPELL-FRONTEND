@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/GRAMSPELL-FRONTEND/">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<GrammarCorrector />} />
